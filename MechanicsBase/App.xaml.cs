@@ -11,5 +11,6 @@ namespace MechanicsBase {
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application {
+        // Base Mechanics Assignment - JDH - August 2018
     }
 }
