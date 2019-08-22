@@ -8,6 +8,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnShow" Content="Click Me" HorizontalAlignment="Left" Margin="135,68,0,0" VerticalAlignment="Top" Width="75" Click="BtnShow_Click"/>
+        <Button x:Name="btnReadFromFile" Content="Read File" HorizontalAlignment="Left" Margin="135,113,0,0" VerticalAlignment="Top" Width="75" Click="BtnReadFromFile_Click"/>
+        <TextBlock x:Name="tbOutput" HorizontalAlignment="Left" Margin="390,59,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="229" Width="270"/>
+
     </Grid>
 </Window>
